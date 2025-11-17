@@ -1,10 +1,10 @@
 ---
-title: Projects
+title: 项目展示
 date: 2025-10-22 00:00:00
 type: page
 ---
 
-下面示例展示如何在个人站点中列出项目，每个项目带有描述与“查看仓库”按钮：
+这里展示我的个人项目，包括开源项目、学习项目等：
 
 <!-- 使用简单的卡片布局，兼容 Butterfly 主题的样式 -->
 <style>
@@ -20,21 +20,21 @@ type: page
 <div class="projects-grid">
 
 <div class="project-card">
-  <h3>示例项目 One</h3>
-  <p>一个演示项目，展示如何在站点中放置开源仓库链接。</p>
-  <a class="project-btn" href="https://github.com/wjydev/example-one" target="_blank" rel="noopener">查看仓库</a>
+  <h3>个人博客网站</h3>
+  <p>基于 Hexo + Butterfly 主题搭建的个人博客，记录技术与生活。</p>
+  <a class="project-btn" href="https://github.com/ID-WJY001/WJY-Site" target="_blank" rel="noopener">查看仓库</a>
 </div>
 
 <div class="project-card">
-  <h3>示例项目 Two</h3>
-  <p>另一个示例，包含说明和 GitHub 跳转按钮。</p>
-  <a class="project-btn" href="https://github.com/wjydev/example-two" target="_blank" rel="noopener">查看仓库</a>
+  <h3>项目 2</h3>
+  <p>一个基于Python和前端三件套的个性化LLM驱动养成系对话角色引擎。</p>
+  <a class="project-btn" href="https://github.com/ID-WJY001/Lyuyuan_AI" target="_blank" rel="noopener">查看仓库</a>
 </div>
 
 <div class="project-card">
-  <h3>示例项目 Three</h3>
-  <p>可替换为你的真实项目，图片、标签等可自由扩展。</p>
-  <a class="project-btn" href="https://github.com/wjydev/example-three" target="_blank" rel="noopener">查看仓库</a>
+  <h3>项目 3</h3>
+  <p>一个C++编写的Mini_Lisp解释器。</p>
+  <a class="project-btn" href="https://github.com/ID-WJY001/Mini_Lisp" target="_blank" rel="noopener">查看仓库</a>
 </div>
 
 </div>
