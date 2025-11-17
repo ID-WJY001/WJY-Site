@@ -17,10 +17,11 @@ nav:
   fixed: false
 
 menu:
-  # Home: / || fas fa-home
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  关于: /about/ || fas fa-user
 
 # --------------------------------------
 # Code Blocks Settings
@@ -45,8 +46,8 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fab fa-github: https://github.com/ID-WJY001 || Github || '#24292e'
+  fas fa-envelope: mailto:junyangwang@stu.pku.edu.cn || Email || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
@@ -55,7 +56,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner images
@@ -285,12 +286,12 @@ aside:
     category: true
   card_author:
     enable: true
-    description:
+    description: 北大学生 | 技术爱好者 | 热爱编程与分享
     button:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/ID-WJY001
   card_announcement:
     enable: true
     content: This is my Blog
@@ -345,7 +346,7 @@ aside:
     # Sort of order. 1, asc for ascending; -1, desc for descending
     order: -1
   card_webinfo:
-    enable: true
+    enable: false
     post_count: true
     last_push_date: true
     sort_order:

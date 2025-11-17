@@ -4,16 +4,16 @@
 
 # Site
 title: WJY's Site
-subtitle: ''
-description: ''
-keywords:
+subtitle: 'Welcome to My Blog'
+description: 'A personal blog by Junyang Wang'
+keywords: blog, technology, personal
 author: Junyang Wang
-language: en
-timezone: ''
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://wjysite.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
