@@ -1,26 +1,26 @@
 ---
-title: 关于
+title: About
 date: 2025-11-17 22:56:07
 type: "about"
 ---
 
-## 👋 关于我
+## 👋 About Me
 
-你好！我是王俊阳，一名来自北京大学的学生。
+Hello! I'm Junyang Wang, a student from Peking University.
 
-### 📚 教育背景
-- 北京大学在读
+### 📚 Education
+- Student at Peking University
 
-### 💻 技术兴趣
-- Web 开发
-- 算法与数据结构
-- 开源项目
+### 💻 Tech Interests
+- Web Development
+- Algorithms & Data Structures
+- Open Source Projects
 
-### 📫 联系方式
+### 📫 Contact
 - **GitHub**: [ID-WJY001](https://github.com/ID-WJY001)
 - **Email**: junyangwang@stu.pku.edu.cn
 
-### 🌱 关于本站
-这是我的个人博客，用于记录学习笔记、技术分享和生活感悟。
+### 🌱 About This Site
+This is my personal blog where I share learning notes, technical insights, and life reflections.
 
-欢迎交流！
+Feel free to reach out!
