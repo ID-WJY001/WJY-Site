@@ -12,7 +12,8 @@ type: page
 .project-card{flex:1 1 calc(33% - 1rem);min-width:220px;background:var(--card-bg,#ffffff);border-radius:8px;padding:1rem;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
 .project-card h3{margin-top:0;font-size:1.1rem}
 .project-card p{color:var(--meta-color,#666);margin:0.5rem 0}
-.project-btn{display:inline-block;margin-top:0.8rem;padding:0.45rem 0.9rem;border-radius:6px;background:var(--accent-color,#49B1F5);color:#fff;text-decoration:none}
+.project-btn{display:inline-block;margin-top:0.8rem;padding:0.45rem 0.9rem;border-radius:6px;background:#49B1F5;color:#fff;text-decoration:none;transition:all 0.3s}
+.project-btn:hover{background:#FF7242;transform:translateY(-2px);box-shadow:0 4px 12px rgba(255,114,66,0.3)}
 @media (max-width:900px){.project-card{flex:1 1 calc(50% - 1rem)}}
 @media (max-width:600px){.project-card{flex:1 1 100%}}
 </style>
