@@ -18,10 +18,8 @@ nav:
 
 menu:
   首页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
   项目: /projects/ || fas fa-code
+  博客: /archives/ || fas fa-book
   关于: /about/ || fas fa-user
 
 # --------------------------------------
