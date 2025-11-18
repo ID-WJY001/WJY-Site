@@ -5,7 +5,7 @@ navbar:
   blog_title: WJY's Site
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill", name: "Home" }
-    - { key: "projects", link: "/projects/", icon: "iconfont icon-links-fill", name: "Projects" }
+    - { key: "projects", link: "/projects/", icon: "iconfont icon-link-fill", name: "Projects" }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill", name: "Blog" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill", name: "About" }
 
@@ -37,9 +37,14 @@ index:
   banner_mask_alpha: 0.3
   slogan:
     enable: true
-    text: Welcome to My Blog
+    text: Welcome to My Site
   auto_excerpt:
-    enable: true
+    enable: false
+  post_url_target: _self
+  post_meta:
+    date: true
+    category: true
+    tag: true
 
 # 文章页
 post:
