@@ -1,0 +1,92 @@
+# Fluid 主题配置文件
+
+# 导航栏
+navbar:
+  blog_title: WJY's Site
+  menu:
+    - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
+    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill", name: "博客" }
+    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
+    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill", name: "关于" }
+    - { key: "links", link: "/projects/", icon: "iconfont icon-link-fill", name: "项目" }
+
+# 首页
+index:
+  banner_img: /img/default.png
+  banner_img_height: 100
+  banner_mask_alpha: 0.3
+  slogan:
+    enable: true
+    text: 欢迎来到我的博客
+  auto_excerpt:
+    enable: true
+
+# 文章页
+post:
+  banner_img: /img/default.png
+  banner_img_height: 70
+  banner_mask_alpha: 0.3
+  meta:
+    author:
+      enable: true
+    date:
+      enable: true
+      format: "YYYY-MM-DD"
+    wordcount:
+      enable: true
+    min2read:
+      enable: true
+    views:
+      enable: false
+
+# 归档页
+archive:
+  banner_img: /img/default.png
+  banner_img_height: 80
+  banner_mask_alpha: 0.3
+
+# 分类页
+category:
+  enable: true
+  banner_img: /img/default.png
+  banner_img_height: 80
+  banner_mask_alpha: 0.3
+
+# 标签页
+tag:
+  enable: true
+  banner_img: /img/default.png
+  banner_img_height: 80
+  banner_mask_alpha: 0.3
+
+# 关于页
+about:
+  enable: true
+  banner_img: /img/default.png
+  banner_img_height: 80
+  banner_mask_alpha: 0.3
+  avatar: /img/avatar.jpg
+  name: Junyang Wang
+  intro: 北大学生 | 技术爱好者 | 热爱编程与分享
+  icons:
+    - { class: "iconfont icon-github-fill", link: "https://github.com/ID-WJY001", tip: "GitHub" }
+    - { class: "iconfont icon-mail-fill", link: "mailto:junyangwang@stu.pku.edu.cn", tip: "Email" }
+
+# 页脚
+footer:
+  content: |
+    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+    <i class="iconfont icon-love"></i>
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+  statistics:
+    enable: false
+
+# 网页统计
+web_analytics:
+  enable: false
+
+# 暗色模式
+dark_mode:
+  enable: true
+  default: auto
