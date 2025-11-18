@@ -8,7 +8,9 @@ subtitle: 'Welcome to My Blog'
 description: 'A personal blog by Junyang Wang'
 keywords: blog, technology, personal
 author: Junyang Wang
-language: zh-CN
+language:
+  - en
+  - zh-CN
 timezone: Asia/Shanghai
 
 # URL
