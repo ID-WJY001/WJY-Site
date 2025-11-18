@@ -1,6 +1,6 @@
 ---
 title: 项目展示
-date: 2025-10-22 00:00:00
+date: 2025-11-18 14:53:39
 type: page
 ---
 
@@ -26,22 +26,15 @@ type: page
 </div>
 
 <div class="project-card">
-  <h3>项目 2</h3>
+  <h3>Lyuyuan AI</h3>
   <p>一个基于Python和前端三件套的个性化LLM驱动养成系对话角色引擎。</p>
   <a class="project-btn" href="https://github.com/ID-WJY001/Lyuyuan_AI" target="_blank" rel="noopener">查看仓库</a>
 </div>
 
 <div class="project-card">
-  <h3>项目 3</h3>
+  <h3>Mini Lisp 解释器</h3>
   <p>一个C++编写的Mini_Lisp解释器。</p>
   <a class="project-btn" href="https://github.com/ID-WJY001/Mini_Lisp" target="_blank" rel="noopener">查看仓库</a>
 </div>
 
 </div>
-
----
-
-说明：
-
-1. 将实际的仓库链接替换为你的 GitHub 仓库 URL。
-2. 如果想更可维护，后续可把项目列表放入 `_data/projects.yml` 并修改主题的 include 来自动渲染。
