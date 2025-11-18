@@ -17,10 +17,10 @@ nav:
   fixed: false
 
 menu:
-  首页: / || fas fa-home
-  项目: /projects/ || fas fa-code
-  博客: /archives/ || fas fa-book
-  关于: /about/ || fas fa-user
+  HOME: / || fas fa-home
+  PROJECTS: /projects/ || fas fa-code
+  BLOGS: /archives/ || fas fa-book
+  ABOUT: /about/ || fas fa-user
 
 # --------------------------------------
 # Code Blocks Settings
@@ -65,7 +65,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img:
+index_img: /img/background.png
 
 # The banner image of archive page
 archive_img:
